@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-18T01:12:22.045Z",
+ "updated": "2026-06-18T04:12:21.735Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -311,6 +311,21 @@
    "t2": "dr-congo",
    "g1": 1,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-17",
+   "round": "Matchday 7",
+   "group": "Group K",
+   "team1": "Uzbekistan",
+   "team2": "Colombia",
+   "t1": "uzbekistan",
+   "t2": "colombia",
+   "g1": 1,
+   "g2": 3,
    "pens1": null,
    "pens2": null,
    "status": "FT",
