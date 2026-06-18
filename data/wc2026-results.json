@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-18T04:12:21.735Z",
+ "updated": "2026-06-18T18:04:29.068Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -25,6 +25,21 @@
    "t1": "south-korea",
    "t2": "czech-republic",
    "g1": 2,
+   "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-18",
+   "round": "Matchday 8",
+   "group": "Group A",
+   "team1": "Czech Republic",
+   "team2": "South Africa",
+   "t1": "czech-republic",
+   "t2": "south-africa",
+   "g1": 1,
    "g2": 1,
    "pens1": null,
    "pens2": null,
