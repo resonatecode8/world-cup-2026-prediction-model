@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-19T00:12:15.276Z",
+ "updated": "2026-06-19T03:04:26.499Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -41,6 +41,21 @@
    "t2": "south-africa",
    "g1": 1,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-18",
+   "round": "Matchday 8",
+   "group": "Group A",
+   "team1": "Mexico",
+   "team2": "South Korea",
+   "t1": "mexico",
+   "t2": "south-korea",
+   "g1": 1,
+   "g2": 0,
    "pens1": null,
    "pens2": null,
    "status": "FT",
