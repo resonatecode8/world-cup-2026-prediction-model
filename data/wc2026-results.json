@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-18T21:04:15.523Z",
+ "updated": "2026-06-19T00:12:15.276Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -86,6 +86,21 @@
    "t2": "bosnia-and-herzegovina",
    "g1": 4,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-18",
+   "round": "Matchday 8",
+   "group": "Group B",
+   "team1": "Canada",
+   "team2": "Qatar",
+   "t1": "canada",
+   "t2": "qatar",
+   "g1": 6,
+   "g2": 0,
    "pens1": null,
    "pens2": null,
    "status": "FT",
