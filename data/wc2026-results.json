@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T22:12:16.079Z",
+ "updated": "2026-06-21T02:02:19.869Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -281,6 +281,21 @@
    "t2": "ivory-coast",
    "g1": 2,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-20",
+   "round": "Matchday 10",
+   "group": "Group E",
+   "team1": "Ecuador",
+   "team2": "Curaçao",
+   "t1": "ecuador",
+   "t2": "curacao",
+   "g1": 0,
+   "g2": 0,
    "pens1": null,
    "pens2": null,
    "status": "FT",
