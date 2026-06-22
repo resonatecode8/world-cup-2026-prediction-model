@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-22T03:12:21.863Z",
+ "updated": "2026-06-22T19:12:24.929Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -536,6 +536,21 @@
    "t2": "jordan",
    "g1": 3,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-22",
+   "round": "Matchday 12",
+   "group": "Group J",
+   "team1": "Argentina",
+   "team2": "Austria",
+   "t1": "argentina",
+   "t2": "austria",
+   "g1": 2,
+   "g2": 0,
    "pens1": null,
    "pens2": null,
    "status": "FT",
