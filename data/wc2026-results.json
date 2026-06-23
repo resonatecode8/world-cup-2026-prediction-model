@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-23T00:52:22.291Z",
+ "updated": "2026-06-23T02:12:24.684Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -521,6 +521,21 @@
    "t2": "iraq",
    "g1": 3,
    "g2": 0,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-22",
+   "round": "Matchday 12",
+   "group": "Group I",
+   "team1": "Norway",
+   "team2": "Senegal",
+   "t1": "norway",
+   "t2": "senegal",
+   "g1": 3,
+   "g2": 2,
    "pens1": null,
    "pens2": null,
    "status": "FT",
