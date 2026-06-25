@@ -69,10 +69,12 @@ well-calibrated estimates, and we make **no claim to beat the betting market**.
 The model's call on **every finished match** of the tournament, updated as it happens:
 
 <!-- TRACK-RECORD:START -->
-**37/54 correct picks (69%) · avg RPS 0.150** (coin-flip ≈ 0.245) · updated 2026-06-25
+**38/56 correct picks (68%) · avg RPS 0.153** (coin-flip ≈ 0.245) · updated 2026-06-25
 
 | Date | Result | Model's pick | |
 |---|---|---|---|
+| 2026-06-25 | Curaçao 0–2 Ivory Coast | Ivory Coast 58% | ✅ |
+| 2026-06-25 | Ecuador 2–1 Germany | Germany 47% | ❌ |
 | 2026-06-24 | Czech Republic 0–3 Mexico | Mexico 65% | ✅ |
 | 2026-06-24 | South Africa 1–0 South Korea | South Korea 56% | ❌ |
 | 2026-06-24 | Switzerland 2–1 Canada | Switzerland 37% | ✅ |

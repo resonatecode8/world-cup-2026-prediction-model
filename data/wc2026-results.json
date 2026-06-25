@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-25T03:04:31.102Z",
+ "updated": "2026-06-25T22:02:16.605Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -386,6 +386,36 @@
    "t2": "curacao",
    "g1": 0,
    "g2": 0,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-25",
+   "round": "Matchday 15",
+   "group": "Group E",
+   "team1": "Curaçao",
+   "team2": "Ivory Coast",
+   "t1": "curacao",
+   "t2": "ivory-coast",
+   "g1": 0,
+   "g2": 2,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-25",
+   "round": "Matchday 15",
+   "group": "Group E",
+   "team1": "Ecuador",
+   "team2": "Germany",
+   "t1": "ecuador",
+   "t2": "germany",
+   "g1": 2,
+   "g2": 1,
    "pens1": null,
    "pens2": null,
    "status": "FT",
