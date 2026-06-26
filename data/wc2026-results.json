@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T01:02:23.546Z",
+ "updated": "2026-06-26T04:02:22.972Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -326,6 +326,21 @@
    "t2": "paraguay",
    "g1": 0,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-25",
+   "round": "Matchday 15",
+   "group": "Group D",
+   "team1": "Paraguay",
+   "team2": "Australia",
+   "t1": "paraguay",
+   "t2": "australia",
+   "g1": 0,
+   "g2": 0,
    "pens1": null,
    "pens2": null,
    "status": "FT",
