@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T04:02:22.972Z",
+ "updated": "2026-06-26T04:12:17.782Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -326,6 +326,21 @@
    "t2": "paraguay",
    "g1": 0,
    "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-25",
+   "round": "Matchday 15",
+   "group": "Group D",
+   "team1": "Turkey",
+   "team2": "USA",
+   "t1": "turkey",
+   "t2": "usa",
+   "g1": 3,
+   "g2": 2,
    "pens1": null,
    "pens2": null,
    "status": "FT",
