@@ -69,11 +69,12 @@ well-calibrated estimates, and we make **no claim to beat the betting market**.
 The model's call on **every finished match** of the tournament, updated as it happens:
 
 <!-- TRACK-RECORD:START -->
-**41/63 correct picks (65%) · avg RPS 0.155** (coin-flip ≈ 0.245) · updated 2026-06-27
+**42/64 correct picks (66%) · avg RPS 0.154** (coin-flip ≈ 0.245) · updated 2026-06-27
 
 | Date | Result | Model's pick | |
 |---|---|---|---|
 | 2026-06-26 | Cape Verde 0–0 Saudi Arabia | Saudi Arabia 42% | ❌ |
+| 2026-06-26 | Uruguay 0–1 Spain | Spain 57% | ✅ |
 | 2026-06-26 | Norway 1–4 France | France 51% | ✅ |
 | 2026-06-26 | Senegal 5–0 Iraq | Senegal 65% | ✅ |
 | 2026-06-25 | Turkey 3–2 USA | USA 54% | ❌ |

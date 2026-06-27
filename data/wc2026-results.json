@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T02:02:22.021Z",
+ "updated": "2026-06-27T02:12:13.794Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -671,6 +671,21 @@
    "t2": "saudi-arabia",
    "g1": 0,
    "g2": 0,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-26",
+   "round": "Matchday 16",
+   "group": "Group H",
+   "team1": "Uruguay",
+   "team2": "Spain",
+   "t1": "uruguay",
+   "t2": "spain",
+   "g1": 0,
+   "g2": 1,
    "pens1": null,
    "pens2": null,
    "status": "FT",
