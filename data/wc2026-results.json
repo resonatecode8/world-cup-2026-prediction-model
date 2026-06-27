@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T05:02:20.809Z",
+ "updated": "2026-06-27T05:12:19.985Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -596,6 +596,21 @@
    "t2": "egypt",
    "g1": 1,
    "g2": 3,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-26",
+   "round": "Matchday 16",
+   "group": "Group G",
+   "team1": "Egypt",
+   "team2": "Iran",
+   "t1": "egypt",
+   "t2": "iran",
+   "g1": 1,
+   "g2": 1,
    "pens1": null,
    "pens2": null,
    "status": "FT",
