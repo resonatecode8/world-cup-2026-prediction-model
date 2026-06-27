@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T05:12:19.985Z",
+ "updated": "2026-06-27T23:02:32.171Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -985,6 +985,36 @@
    "t1": "panama",
    "t2": "croatia",
    "g1": 0,
+   "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-27",
+   "round": "Matchday 17",
+   "group": "Group L",
+   "team1": "Panama",
+   "team2": "England",
+   "t1": "panama",
+   "t2": "england",
+   "g1": 0,
+   "g2": 2,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-27",
+   "round": "Matchday 17",
+   "group": "Group L",
+   "team1": "Croatia",
+   "team2": "Ghana",
+   "t1": "croatia",
+   "t2": "ghana",
+   "g1": 2,
    "g2": 1,
    "pens1": null,
    "pens2": null,
