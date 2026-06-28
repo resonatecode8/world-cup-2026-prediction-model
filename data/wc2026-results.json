@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T01:42:19.616Z",
+ "updated": "2026-06-28T04:02:33.095Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -866,6 +866,36 @@
    "t2": "algeria",
    "g1": 1,
    "g2": 2,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-27",
+   "round": "Matchday 17",
+   "group": "Group J",
+   "team1": "Algeria",
+   "team2": "Austria",
+   "t1": "algeria",
+   "t2": "austria",
+   "g1": 3,
+   "g2": 3,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-27",
+   "round": "Matchday 17",
+   "group": "Group J",
+   "team1": "Jordan",
+   "team2": "Argentina",
+   "t1": "jordan",
+   "t2": "argentina",
+   "g1": 1,
+   "g2": 3,
    "pens1": null,
    "pens2": null,
    "status": "FT",
