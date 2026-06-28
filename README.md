@@ -69,10 +69,11 @@ well-calibrated estimates, and we make **no claim to beat the betting market**.
 The model's call on **every finished match** of the tournament, updated as it happens:
 
 <!-- TRACK-RECORD:START -->
-**47/72 correct picks (65%) · avg RPS 0.149** (coin-flip ≈ 0.245) · updated 2026-06-28
+**48/73 correct picks (66%) · avg RPS 0.147** (coin-flip ≈ 0.245) · updated 2026-06-28
 
 | Date | Result | Model's pick | |
 |---|---|---|---|
+| 2026-06-28 | 2A 0–1 2B | 2B 60% | ✅ |
 | 2026-06-27 | Algeria 3–3 Austria | Austria 37% | ❌ |
 | 2026-06-27 | Jordan 1–3 Argentina | Argentina 84% | ✅ |
 | 2026-06-27 | Colombia 0–0 Portugal | Portugal 43% | ❌ |
@@ -81,7 +82,7 @@ The model's call on **every finished match** of the tournament, updated as it ha
 | 2026-06-27 | Croatia 2–1 Ghana | Croatia 59% | ✅ |
 | 2026-06-26 | Egypt 1–1 Iran | Iran 42% | ❌ |
 | 2026-06-26 | New Zealand 1–5 Belgium | Belgium 70% | ✅ |
-| 2026-06-26 | Cape Verde 0–0 Saudi Arabia | Saudi Arabia 42% | ❌ |
+| 2026-06-26 | Cape Verde 0–0 Saudi Arabia | Saudi Arabia 36% | ❌ |
 | 2026-06-26 | Uruguay 0–1 Spain | Spain 57% | ✅ |
 | 2026-06-26 | Norway 1–4 France | France 51% | ✅ |
 | 2026-06-26 | Senegal 5–0 Iraq | Senegal 65% | ✅ |
@@ -108,7 +109,7 @@ The model's call on **every finished match** of the tournament, updated as it ha
 | 2026-06-21 | Belgium 0–0 Iran | Belgium 51% | ❌ |
 | 2026-06-21 | New Zealand 1–3 Egypt | Egypt 48% | ✅ |
 | 2026-06-21 | Spain 4–0 Saudi Arabia | Spain 77% | ✅ |
-| 2026-06-21 | Uruguay 2–2 Cape Verde | Uruguay 63% | ❌ |
+| 2026-06-21 | Uruguay 2–2 Cape Verde | Uruguay 57% | ❌ |
 | 2026-06-20 | Germany 2–1 Ivory Coast | Germany 59% | ✅ |
 | 2026-06-20 | Ecuador 0–0 Curaçao | Ecuador 69% | ❌ |
 | 2026-06-20 | Netherlands 5–1 Sweden | Netherlands 53% | ✅ |
@@ -131,7 +132,7 @@ The model's call on **every finished match** of the tournament, updated as it ha
 | 2026-06-16 | Austria 3–1 Jordan | Austria 56% | ✅ |
 | 2026-06-15 | Belgium 1–1 Egypt | Belgium 58% | ❌ |
 | 2026-06-15 | Iran 2–2 New Zealand | Iran 54% | ❌ |
-| 2026-06-15 | Spain 0–0 Cape Verde | Spain 83% | ❌ |
+| 2026-06-15 | Spain 0–0 Cape Verde | Spain 78% | ❌ |
 | 2026-06-15 | Saudi Arabia 1–1 Uruguay | Uruguay 56% | ❌ |
 | 2026-06-14 | Germany 7–1 Curaçao | Germany 80% | ✅ |
 | 2026-06-14 | Ivory Coast 1–0 Ecuador | Ecuador 47% | ❌ |

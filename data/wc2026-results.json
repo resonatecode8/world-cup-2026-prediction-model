@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T04:02:33.095Z",
+ "updated": "2026-06-28T21:04:27.776Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -1080,6 +1080,21 @@
    "pens2": null,
    "status": "FT",
    "winner": null
+  },
+  {
+   "date": "2026-06-28",
+   "round": "Round of 32",
+   "group": null,
+   "team1": "2A",
+   "team2": "2B",
+   "t1": "south-africa",
+   "t2": "canada",
+   "g1": 0,
+   "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": "canada"
   }
  ]
 }
