@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T23:02:32.171Z",
+ "updated": "2026-06-28T01:32:20.913Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -925,6 +925,21 @@
    "t1": "colombia",
    "t2": "dr-congo",
    "g1": 1,
+   "g2": 0,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": null
+  },
+  {
+   "date": "2026-06-27",
+   "round": "Matchday 17",
+   "group": "Group K",
+   "team1": "Colombia",
+   "team2": "Portugal",
+   "t1": "colombia",
+   "t2": "portugal",
+   "g1": 0,
    "g2": 0,
    "pens1": null,
    "pens2": null,
