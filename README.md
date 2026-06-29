@@ -69,10 +69,11 @@ well-calibrated estimates, and we make **no claim to beat the betting market**.
 The model's call on **every finished match** of the tournament, updated as it happens:
 
 <!-- TRACK-RECORD:START -->
-**49/74 correct picks (66%) · avg RPS 0.147** (coin-flip ≈ 0.245) · updated 2026-06-29
+**49/75 correct picks (65%) · avg RPS 0.148** (coin-flip ≈ 0.245) · updated 2026-06-29
 
 | Date | Result | Model's pick | |
 |---|---|---|---|
+| 2026-06-30 | Germany 1–1 (3–4 p) Paraguay | Germany 65% | ❌ |
 | 2026-06-29 | Brazil 2–1 Japan | Brazil 51% | ✅ |
 | 2026-06-28 | South Africa 0–1 Canada | Canada 60% | ✅ |
 | 2026-06-27 | Algeria 3–3 Austria | Austria 37% | ❌ |
