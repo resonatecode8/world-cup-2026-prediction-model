@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-29T06:40:47.664Z",
+ "updated": "2026-06-29T19:12:23.055Z",
  "matches": [
   {
    "date": "2026-06-11",
@@ -1095,6 +1095,21 @@
    "pens2": null,
    "status": "FT",
    "winner": "canada"
+  },
+  {
+   "date": "2026-06-29",
+   "round": "Round of 32",
+   "group": null,
+   "team1": "Brazil",
+   "team2": "Japan",
+   "t1": "brazil",
+   "t2": "japan",
+   "g1": 2,
+   "g2": 1,
+   "pens1": null,
+   "pens2": null,
+   "status": "FT",
+   "winner": "brazil"
   }
  ]
 }
