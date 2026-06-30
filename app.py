@@ -3,7 +3,6 @@ import json
 
 st.title("⚽ World Cup 2026 Prediction Model")
 
-# Load data safely (handles real repo structure)
 @st.cache_data
 def load_teams():
     with open("data/elo-calibrated.json", "r") as f:
@@ -11,20 +10,29 @@ def load_teams():
 
     teams = {}
 
-    # CASE 1: list format (most likely your repo)
+    # Try to extract ONLY valid team names
     if isinstance(data, list):
         for item in data:
+            # force string name, ignore junk keys like "ratings", "matchesApplied"
             name = item.get("team") or item.get("name")
-            rating = item.get("elo") or item.get("rating") or item.get("ratings")
 
-            if name and rating:
-                teams[name] = float(rating)
+            # STRICT filter: must be a real team name (not a stat field)
+            if name and isinstance(name, str):
+                name = name.strip().lower()
 
-    # CASE 2: dict format
+                # ignore obvious bad keys
+                if name in ["ratings", "rating", "matchesapplied"]:
+                    continue
+
+                rating = item.get("elo") or item.get("rating") or item.get("ratings")
+
+                if isinstance(rating, (int, float)):
+                    teams[name] = float(rating)
+
     elif isinstance(data, dict):
         for k, v in data.items():
-            if isinstance(v, (int, float)):
-                teams[k] = v
+            if isinstance(v, (int, float)) and isinstance(k, str):
+                teams[k.lower()] = v
 
     return teams
 
@@ -32,7 +40,7 @@ def load_teams():
 TEAM_ELO = load_teams()
 
 if not TEAM_ELO:
-    st.error("Could not load team ratings. Check JSON format.")
+    st.error("No valid teams loaded. Your JSON structure is different than expected.")
     st.stop()
 
 
@@ -68,10 +76,9 @@ if st.button("Predict Match"):
     win_a, draw, win_b, ga, gb = match_prob(a, b)
 
     st.subheader("Result Probabilities")
-
-    st.write(f"**{team1} win:** {win_a:.2%}")
-    st.write(f"**Draw:** {draw:.2%}")
-    st.write(f"**{team2} win:** {win_b:.2%}")
+    st.write(f"{team1}: {win_a:.2%}")
+    st.write(f"Draw: {draw:.2%}")
+    st.write(f"{team2}: {win_b:.2%}")
 
     st.subheader("Expected Goals")
     st.write(f"{team1}: {ga:.2f}")
