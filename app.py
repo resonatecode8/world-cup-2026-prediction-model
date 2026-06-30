@@ -1,34 +1,32 @@
 import streamlit as st
-from model import match_prob
+import subprocess
 
-st.title("⚽ Match Predictor")
+st.title("⚽ World Cup 2026 Prediction Model")
 
-TEAM_ELO = {
-    "brazil": 2100,
-    "france": 2080,
-    "argentina": 2075,
-    "england": 2050,
-    "germany": 2030,
-    "spain": 2025,
-    "portugal": 2015,
-    "netherlands": 2005
-}
+st.write("Enter two teams (must match dataset names exactly)")
 
-team1 = st.selectbox("Team 1", list(TEAM_ELO.keys()))
-team2 = st.selectbox("Team 2", list(TEAM_ELO.keys()))
+team1 = st.text_input("Team A (e.g. brazil)")
+team2 = st.text_input("Team B (e.g. argentina)")
 
 if st.button("Predict Match"):
 
-    a = TEAM_ELO[team1]
-    b = TEAM_ELO[team2]
+    if not team1 or not team2:
+        st.error("Enter both teams")
+    else:
+        try:
+            result = subprocess.run(
+                ["node", "predict.mjs", team1.lower(), team2.lower()],
+                capture_output=True,
+                text=True
+            )
 
-    result = match_prob(a, b)
+            if result.returncode != 0:
+                st.error("Model error")
+                st.text(result.stderr)
+            else:
+                st.subheader("Prediction Output")
+                st.text(result.stdout)
 
-    st.subheader(f"{team1.title()} vs {team2.title()}")
-
-    st.write("Win A:", round(result["winA"] * 100, 2), "%")
-    st.write("Draw:", round(result["draw"] * 100, 2), "%")
-    st.write("Win B:", round(result["winB"] * 100, 2), "%")
-
-    st.write("Expected Goals A:", round(result["expectedGoalsA"], 2))
-    st.write("Expected Goals B:", round(result["expectedGoalsB"], 2))
+        except FileNotFoundError:
+            st.error("Node.js is not available in this environment.")
+            st.info("This repo requires Node runtime (not Streamlit Python runtime).")
