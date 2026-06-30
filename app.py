@@ -1,10 +1,17 @@
 import streamlit as st
+import subprocess
 
-st.title("World Cup 2026 Prediction Model")
+st.title("⚽ Match Predictor")
 
-st.write("Welcome to your simulation dashboard")
+team1 = st.text_input("Team 1 (e.g. brazil)")
+team2 = st.text_input("Team 2 (e.g. france)")
 
-team = st.text_input("Enter a team")
+if st.button("Predict Winner"):
 
-if st.button("Run Prediction"):
-    st.write(f"Running model for: {team}")
+    result = subprocess.run(
+        ["node", "predict.mjs", team1.lower(), team2.lower()],
+        capture_output=True,
+        text=True
+    )
+
+    st.text(result.stdout)
