@@ -3,30 +3,42 @@ import json
 
 st.title("⚽ World Cup 2026 Prediction Model")
 
-# Load Elo ratings
+# Load data safely (handles real repo structure)
 @st.cache_data
 def load_teams():
     with open("data/elo-calibrated.json", "r") as f:
         data = json.load(f)
 
-    # handle both formats: dict OR list
-    if isinstance(data, dict):
-        return data
+    teams = {}
 
+    # CASE 1: list format (most likely your repo)
     if isinstance(data, list):
-        return {t["team"].lower(): t["elo"] for t in data}
+        for item in data:
+            name = item.get("team") or item.get("name")
+            rating = item.get("elo") or item.get("rating") or item.get("ratings")
 
-    return {}
+            if name and rating:
+                teams[name] = float(rating)
+
+    # CASE 2: dict format
+    elif isinstance(data, dict):
+        for k, v in data.items():
+            if isinstance(v, (int, float)):
+                teams[k] = v
+
+    return teams
+
 
 TEAM_ELO = load_teams()
 
 if not TEAM_ELO:
-    st.error("No team data found. Check data/elo-calibrated.json")
+    st.error("Could not load team ratings. Check JSON format.")
     st.stop()
 
-# Simple Elo → goal model (Dixon-Coles simplified)
+
 def expected_goals(diff):
     return max(0.3, min(3.5, 1.35 + diff / 400))
+
 
 def match_prob(a, b):
     goal_a = expected_goals(a - b)
@@ -41,9 +53,9 @@ def match_prob(a, b):
     return win_a, draw, win_b, goal_a, goal_b
 
 
-st.subheader("Select Match")
-
 teams = sorted(TEAM_ELO.keys())
+
+st.subheader("Select Match")
 
 team1 = st.selectbox("Team A", teams)
 team2 = st.selectbox("Team B", teams)
